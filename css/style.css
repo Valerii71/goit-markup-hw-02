@@ -80,7 +80,6 @@ body {
 .auth-nav .auth-link:hover,
 .auth-nav .auth-link:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 /* Hero */
