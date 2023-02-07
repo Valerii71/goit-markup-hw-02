@@ -62,7 +62,7 @@ body {
   color: var(--accent-color);
 }
 
-.address-list>a {
+.address-list a {
   font-style: normal;
   color: var(--primery-text-color);
   text-decoration: none;
