@@ -10,10 +10,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primery-text-color);
   background-color: var(--main-color);
 }
@@ -32,11 +31,11 @@ body {
 
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   text-decoration: none;
+  text-transform: uppercase;
   color: var(--logo-first-color);
 }
 
@@ -45,40 +44,33 @@ body {
 }
 
 .site-nav a {
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
-.site-nav .link {
-  color: var(--title-text-color);
+.link {
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
-.auth-nav a {
-  font-family: "Roboto", sans-serif;
+.addres-list a {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: var(--primery-text-color);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
-.auth-nav .auth-link:hover,
-.auth-nav .auth-link:focus {
+.addres-list .auth-link:hover,
+.addres-list .auth-link:focus {
   color: var(--accent-color);
 }
 
@@ -89,7 +81,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -114,11 +105,11 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--title-text-color);
 }
 
