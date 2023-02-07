@@ -62,15 +62,15 @@ body {
   color: var(--accent-color);
 }
 
-.addres-list a {
+.address-list a {
   font-style: normal;
   color: var(--primery-text-color);
   text-decoration: none;
   letter-spacing: 0.02em;
 }
 
-.addres-list .auth-link:hover,
-.addres-list .auth-link:focus {
+.address-list .address-link:hover,
+.address-list .address-link:focus {
   color: var(--accent-color);
 }
 
